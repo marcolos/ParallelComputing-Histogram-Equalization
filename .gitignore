@@ -1,0 +1,5 @@
+# Remove all files with .DS_Store extension 
+*.DS_Store
+
+# Remove this folder
+latex_report_histogram/
