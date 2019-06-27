@@ -9,7 +9,7 @@ using namespace std;
 using namespace cv;
 
 void make_histogram(Mat image, int histogram[], int *yuv_vector)
-// crea l'istogramma e converte da RGB a YUV creando un vettore colonna yuv_vector di dimensione col*row*3
+// make the histogram and convert from RGB to YUV creating a coloumn vector yuv_vector with col*row*3 dimension
 {
     // initialize all intensity values to 0
     for(int i = 0; i < 256; i++){
@@ -35,8 +35,7 @@ void make_histogram(Mat image, int histogram[], int *yuv_vector)
             histogram[Y]++;
 
             // memorize in a column vector all the pixels of the image in RGB format ( the yuv_vector is initialized like rows*cols*3 )
-            //int index = (i*image.cols + j)*3;
-
+        
             yuv_vector[index] = Y;
             yuv_vector[index + 1] = U;
             yuv_vector[index + 2] = V;
@@ -47,8 +46,9 @@ void make_histogram(Mat image, int histogram[], int *yuv_vector)
 }
 
 
-void cumulative_histogram(int histogram[], int equalized[], int cols, int rows){
-// calcola la cdf
+void cumulative_histogram(int histogram[], int equalized[], int cols, int rows)
+// compute the cdf(named cumulative_histogram) and normalize it (named equalized)
+{
     int cumulative_histogram[256];
 
     cumulative_histogram[0] = histogram[0];
@@ -60,12 +60,13 @@ void cumulative_histogram(int histogram[], int equalized[], int cols, int rows){
     }
 }
 
-void equalize(Mat image, int equalized[], int *yuv_vector){
+void equalize(Mat image, int equalized[], int *yuv_vector)
+// edit Y channel with equalized vector and reconvert from YUV to RGB 
+{
     int index = 0;
     for(int i = 0; i < image.rows; i++) {
         for (int j = 0; j < image.cols; j++) {
 
-            //int index = (i*image.cols + j)*3;
 
             int Y = equalized[yuv_vector[index]];
             int U = yuv_vector[index+1];
@@ -91,14 +92,15 @@ void equalize(Mat image, int equalized[], int *yuv_vector){
 int main(){
 
     // Load the image in RGB format. For each matrix cell there are 3 bytes that identifies RGB pixel
-    Mat image = imread("../img/batman.jpg", IMREAD_COLOR);
+    Mat image = imread("../img/car.jpg", IMREAD_COLOR);
 
-    resize(image, image, Size(10000, 10000));
+    //resize(image, image, Size(10000, 10000));
     //imshow("Original Image", image);
 
     struct timeval start, end;
     gettimeofday(&start, NULL);
 
+    // For big image dimension is required to allocate array for avoid the segmentation fault
     int *yuv_vector = new int[image.rows * image.cols * 3];
 
     // Generate the histogram
@@ -120,7 +122,7 @@ int main(){
     //resize(image, image, Size(800,800));
     //imshow("Equalized Image",image);
 
-    imwrite("/Users/marco/Project/ParallelComputing-Histogram-Equalization/Sequential/img_after_eq/batman.jpg", image);
+    imwrite("/Users/marco/Project/ParallelComputing-Histogram-Equalization/Sequential/img_after_eq/car.jpg", image);
     //waitKey(0);
     return 0;
 

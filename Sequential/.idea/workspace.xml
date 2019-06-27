@@ -12,8 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cadce59a-2328-4cf7-a27c-0630b51b4e54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMP/cmake-build-debug/CMakeFiles/OpenMP.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMP/cmake-build-debug/CMakeFiles/OpenMP.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMP/cmake-build-debug/OpenMP" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMP/cmake-build-debug/OpenMP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMP/img_after_eq/batman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMP/img_after_eq/batman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMP/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMP/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../READMI.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sequential.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sequential.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sequential" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sequential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_after_eq/batman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img_after_eq/batman.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../histogram_equalization_CUDA/img_after_eq/car.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../histogram_equalization_CUDA/img_after_eq/car.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+            <state relative-caret-position="1692">
+              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -65,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +86,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,17 +132,18 @@
       <workItem from="1560865558871" duration="1648000" />
       <workItem from="1560867774239" duration="1971000" />
       <workItem from="1561022011621" duration="3303000" />
+      <workItem from="1561636840045" duration="414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18874000" />
+    <option name="totallyTimeSpent" value="19288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,8 +178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        <state relative-caret-position="1692">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
