@@ -1,0 +1,16 @@
+# ParallelComputing Histogram Equalization
+
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.001.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.002.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.003.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.004.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.005.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.006.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.007.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.008.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.009.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.010.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.011.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.012.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.013.jpeg)
+![ ](https://github.com/marcolos/ParallelComputing-Histogram-Equalization/blob/master/Report%26Presentation/img_presentation/pc_presentation.014.jpeg)
