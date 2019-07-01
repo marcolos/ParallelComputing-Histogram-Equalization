@@ -18,8 +18,11 @@ void make_histogram(Mat image, int histogram[], int *yuv_vector)
 
 
     #pragma omp parallel default(shared)
+    // all variables are shared with all threads 
     {
         #pragma omp for schedule(static)
+        // with static, When k>n, threads are assigned to k/n chunks of iteration space
+        // where k = number of iterations; n = number of threads
         {
             for (int i = 0; i < image.rows; i++) {
                 for (int j = 0; j < image.cols; j++) {
@@ -69,7 +72,7 @@ void cumulative_histogram(int histogram[], int equalized[], int cols, int rows)
         for(int i = 1; i < 256; i++){
             equalized[i] = (int)(((float)cumulative_histogram[i] - histogram[0])/((float)cols * rows - 1)*255);
         }
-    }
+}
 
 void equalize(Mat image, int equalized[], int *yuv_vector)
 {
